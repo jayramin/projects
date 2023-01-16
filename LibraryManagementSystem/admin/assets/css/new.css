@@ -1,0 +1,15 @@
+.textbox {
+	color:#030;
+	width:97%;
+	padding:5px;
+	margin:10px;
+	background-color:transparent;
+	border:1px solid gray;
+	outline:none;
+}
+label{
+	margin-top:15px !important;
+	font-weight:700;
+	}
+
+

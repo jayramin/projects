@@ -1,0 +1,164 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        Test page ......
+    </title>
+    <!-- <script type="text/javascript" src="JavaScript.js"></script> -->
+</head>
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+function getHash(str, algo = "SHA-256") {
+  let strBuf = new TextEncoder('utf-8').encode(str);
+  return crypto.subtle.digest(algo, strBuf)
+    .then(hash => {
+      window.hash = hash;
+      // here hash is an arrayBuffer, 
+      // so we'll connvert it to its hex version
+      let result = '';
+      const view = new DataView(hash);
+      for (let i = 0; i < hash.byteLength; i += 4) {
+        result += ('00000000' + view.getUint32(i).toString(16)).slice(-8);
+      }
+      return result;
+    });
+}
+
+getHash("4CipxqGn" + "|" + "a" + "|" + "100" + "|" + "Name" + "|"
+                + "a" + "|" + "mail@mail.com" + "|" + "udf1" + "|" + "udf2" + "|" + "udf3" + "|" + "udf4" + "|" + "udf5" + "|" + "dB15RAEo8A")
+  .then(hash => {
+    console.log(hash);
+  });
+
+
+
+  
+        // function test() {
+        //     //document.theForm.submit();
+        //     $("#form1").submit();
+        //     alert($("#amount").val());
+        //    // $("#form1")[0].submit();
+
+        //     //document.getElementById('form1').submit();
+
+        //     //document.createElement('form1').submit.call(document.getElementById('form1'));
+
+        //     //var x = document.getElementsByTagName("form");
+        //     //x[0].submit();// Form submission
+        // }
+
+        function hashCode(str) {
+            return str.split('').reduce((prevHash, currVal) => (((prevHash << 5) - prevHash) + currVal.charCodeAt(0)) | 0, 0);
+        } // Test console.log("hashCode(\"Hello!\"): ", hashCode('Hello!')); 
+    function SubmitForm()
+        {
+
+        // document.theForm.submit();
+        var serverCalculatedHash = ("4CipxqGn" + "|" + "a" + "|" + "100" + "|" + "Name" + "|"
+                + "a" + "|" + "mail@mail.com" + "|" + "udf1" + "|" + "udf2" + "|" + "udf3" + "|" + "udf4" + "|" + "udf5" + "|" + "dB15RAEo8A");
+      //  var serverCalculatedHash = hashCal("SHA-512", vHEFcKOb + "|" + txnId + "|" + Double.parseDouble(totalPrices) + "|" + productName + "|"
+                //+ userName + "|" + userEmail + "|" + udf1 + "|" + udf2 + "|" + udf3 + "|" + udf4 + "|" + udf5 + "|" + zjs4GMZFmz);
+        var check = hashCode(serverCalculatedHash);
+        console.log(check);
+        alert(serverCalculatedHash);
+        return false;
+        //var hash1;
+
+        // document.forms[0].txnid.value = 'AJX' + Math.floor((Math.random() * 99999999) + 1);
+
+        //var stringhash = document.forms[0].key.value + '|' + document.forms[0].txnid.value + '|' + document.forms[0].amount.value + '|' + document.forms[0].productinfo.value + '|' + document.forms[0].firstname.value + '|' + document.forms[0].email.value + '|||||||||||';
+
+        // hash1 = SHA512(stringhash);
+        //hash1 = "";
+        // console.log(document.forms[0]);
+        // document.forms[0].hash.value = check;
+        //var shoeArray = {
+        //    'mkey': '3',
+        //    'tid': "0",
+        //    'hash': "1",
+        //    'amount': "3",
+        //    'name': "3",
+        //    'amount': "3",
+        //    'productinfo': "",
+        //    'mailid': "",
+        //    'phoneno': "",
+        //    'address': "",
+        //    'action': "https://secure.payu.in",
+        //    'sucess': "",
+        //    'failure': "",
+        //    'cancel': ""
+        //}
+        //document.forms[0].submit();
+        //document.forms['form1'].submit();
+        //document.getElementById("form1").submit();
+        //$("#form1").submit();
+    }
+
+
+
+    </script>
+    <!-- <form method="post" name="theForm" id="form1"> -->
+    <form method="post" name="theForm" action="https://secure.payu.in/_payment" id="form1">
+
+
+        <input name="mkey" type="hidden" id="mkey" value="4CipxqGn" />
+        <input name="key" type="hidden" id="key" value="dB15RAEo8A" />
+        <input name="hash" type="text" id="hash" value="ab04f09cce465e9d35ff0accf8c81345b50c125d170973ee6378a0d6113849ccb4babcf4fbcba04f9f3809bb83adff37ded8ebaa6d72df7367ef681a9a1f47f8" />
+        <input name="txnid" type="hidden" id="txnid" value="12288" />
+        <table>
+            <tr>
+                <td><b>Mandatory Parameters</b></td>
+            </tr>
+            <tr>
+                <td>Amount: </td>
+                <td>
+                    <input name="amount" type="text" id="amount" />
+                </td>
+                <td>First Name: </td>
+                <td>
+                    <input name="firstname" type="text" id="firstname" />
+                </td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>
+                    <input name="email" type="text" id="email" />
+                </td>
+                <td>Phone: </td>
+                <td>
+                    <input name="phone" type="text" id="phone" />
+                </td>
+            </tr>
+            <tr>
+                <td>Product Info: </td>
+                <td colspan="3">
+                    <input name="productinfo" type="text" id="productinfo" />
+                </td>
+            </tr>
+            <tr>
+                <td>Success URI: </td>
+                <td colspan="3">
+                    <input name="surl" type="text" id="surl" />
+                </td>
+            </tr>
+            <tr>
+                <td>Failure URI: </td>
+                <td colspan="3">
+                    <input name="furl" type="text" id="furl" />
+                </td>
+            </tr>            
+            <tr>
+
+                <td colspan="4"></td>
+
+            </tr>
+        </table>
+        <br />
+        <!-- <input type="submit" name="submit" value="submit" id="submit" style="width:100px;" onclick='SubmitForm()' />-->
+        <!-- <input type="button" name="btnsubmit" value="submit" id="btnsubmit" style="width:100px;" onclick='SubmitForm()' /> -->
+        <button name="btnsubmit" id="btnsubmit" style="width:100px;" onclick='SubmitForm()'>Save </button>
+    </form>
+</body>
+</html>
