@@ -1,0 +1,120 @@
+<head>
+<style type="text/css">
+.style1 {
+	text-align: left;
+}
+.style3 {
+	font-family: Arial;
+	font-size: x-small;
+}
+.style4 {
+	font-size: x-small;
+}
+.style5 {
+	font-family: Arial;
+	font-size: xx-small;
+}
+.style7 {
+	background-color: #FFFFCC;
+}
+</style>
+</head>
+
+<form method="POST" action="payflow_examples.php">
+  <table cellpadding="5" class="style7">
+    <tr> 
+      <td class="style3" style="width: 165px"> Vendor:&nbsp; </td>
+      <td class="style3" style="width: 134px"> <input type="text" name="VENDOR" value=""></td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+      <td style="width: 414px" rowspan="12" valign="top" class="style1"> <span class="style5"><strong>Common 
+        Issues:</strong><br>
+        <br>
+        Result Code 1 is caused by one of the following:</span> <ol>
+          <li class="style5">Invalid login information.&nbsp; Remember, its case-sensitive.</li>
+          <li class="style5">Created separate Payflow Pro password. This is not 
+            suggested, it is better to create a separate Payflow Pro User.</li>
+          <li class="style5">IP Restrictions on account.&nbsp; See Service Settings 
+            &gt;&gt; Allowed IP Address in Manager at <a target="_blank" href="https://manager.paypal.com/csLoginPage.do">https://manager.paypal.com</a>.</li>
+        </ol>
+        <span class="style5">Result Code 26 is caused by the following:</span> 
+        <ol>
+          <li class="style5">Invalid login information.&nbsp; Remember, VENDOR 
+            and USER are the same unless you created a separate Payflow Pro User 
+            and all fields are case-sensitive.</li>
+        </ol></td>
+    </tr>
+    <tr> 
+      <td class="style4" style="width: 165px"> <span class="style3">User: </span><br> 
+        <span class="style5">User = Vendor unless you created<br>
+        a Payflow Pro user.</span></td>
+      <td class="style4" style="width: 134px"> <input type="test" name="USER" value=""></td>
+      <td class="style4" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px"> Partner:&nbsp; </td>
+      <td class="style3" style="width: 134px"> <input type="text" name="PARTNER" value="paypaluk"></td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px"> Password:&nbsp; </td>
+      <td class="style3" style="width: 134px"> <input type="text" name="PWD" value=""></td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px"> Amount:&nbsp; </td>
+      <td class="style3" style="width: 134px"> <input type="text" name="AMT" value="1.00"></td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="style3" style="width: 165px">Currency</td>
+      <td class="style3" style="width: 134px">
+					<select name="currency" id="currency">
+          <option value="USD" selected>USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="CAD">CAD</option>
+          <option value="JPY">JPY</option>
+          <option value="AUD">AUD</option>
+        </select></td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px"> Transaction Type:&nbsp; </td>
+      <td class="style3" style="width: 134px"> <select name="TRXTYPE">
+          <option value="S" selected>Sale Transaction</option>
+          <option value="A">Athorization</option>
+          <option value="D">Delayed</option>
+          <option value="AD">Authorization with Delayed</option>
+          <option value="C">Credit Transaction</option>
+          <option value="V">Void Transaction</option>
+        </select> </td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px">OrigID (optional)</td>
+      <td class="style3" style="width: 134px"><input name="ORIGID" type="text" id="ORIGID"></td>
+      <td class="style3" style="width: 134px">for delayed, void, credit</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px"> Tender Type:&nbsp; </td>
+      <td class="style3" style="width: 134px"> <input type="text" name="TENDER" value="C" disabled></td>
+      <td class="style3" style="width: 134px">C = card, P= Paypal</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px"> CC #:&nbsp; </td>
+      <td class="style3" style="width: 134px"> <input type="text" name="ACCT" value="5105105105105100"></td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td class="style3" style="width: 165px"> Expiration Date (MMYY):</td>
+      <td class="style3" style="width: 134px"> <input type="text" name="EXPDATE" value="1209"></td>
+      <td class="style3" style="width: 134px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td colspan="3"> 
+        <!-- Request ID: <input type="text" name="REQUEST_ID" value=""> -->
+      </td>
+    </tr>
+  </table>
+<input type="submit" value="Click here to Purchase">
+</form>

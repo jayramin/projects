@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<script type="text/javascript" src="createcardvalidation.js" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<select name="Type" id="Type">
+	<option value="">Select card type</option>
+	<option value="VISA">Visa</option>
+	<option value="MC">MasterCard</option>
+	<option value="AMEX">American Express</option>
+	<option value="DISC">Discover</option>
+</select>
+<input type="text" name="CreditCardNumber" maxlength="16" minlength="16" onblur="CheckCreditCard(this.value)">
+
+<div class="span6">
+						<h3>Credit Card Numbers for Demo</h3>
+				
+						<p>Enter each card number into the demo above to see it work!</p>
+						
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+									<th>Type</th>
+									<th>Number</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Visa</td>
+									<td>4012 8888 8888 1881</td>
+								</tr>
+								<tr>
+									<td>MasterCard</td>
+									<td>5105 1051 0510 5100</td>
+								</tr>
+								<tr>
+									<td>Amex</td>
+									<td>3714 496353 98431</td>
+								</tr>
+								<tr>
+									<td>Discover</td>
+									<td>6011 0009 9013 9424</td>
+								</tr>
+								<tr>
+									<td>Diners Club</td>
+									<td>3056 93090 25904</td>
+								</tr>
+								<tr>
+									<td>JCB</td>
+									<td>3566 0020 2036 0505</td>
+								</tr>
+								<tr>
+									<td>Maestro</td>
+									<td>6759 6498 2643 8453</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+</body>
+</html>

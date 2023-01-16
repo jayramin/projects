@@ -1,0 +1,726 @@
+
+TIME:>> 2017-02-18 13:13 PM during select query with v_city table: 
+ErrorStatement:>> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.v_city' doesn't exist
+
+TIME:>> 2017-02-18 13:19 PM during select query with v_city table: 
+ErrorStatement:>> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.v_city' doesn't exist
+
+TIME:>> 2017-02-20 06:06 AM during insert query in v_set_master table: 
+ErrorStatement:>> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.v_set_master' doesn't exist
+
+TIME:>> 2017-02-20 07:18 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CityName' in 'field list'
+
+TIME:>> 2017-02-20 07:20 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CityName' in 'field list'
+
+TIME:>> 2017-02-20 07:21 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CityName' in 'field list'
+
+TIME:>> 2017-02-24 06:22 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Terms' in 'field list'
+
+TIME:>> 2017-02-24 06:28 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Gender' cannot be null
+
+TIME:>> 2017-02-24 06:28 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Gender' cannot be null
+
+TIME:>> 2017-02-24 06:29 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Gender' cannot be null
+
+TIME:>> 2017-02-24 06:29 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Gender' cannot be null
+
+TIME:>> 2017-02-24 06:30 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Gender' cannot be null
+
+TIME:>> 2017-02-24 06:30 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'is_active' cannot be null
+
+TIME:>> 2017-03-02 16:19 PM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'StateName' cannot be null
+
+TIME:>> 2017-03-03 05:35 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:37 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:43 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:46 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:49 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:49 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:49 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:49 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:49 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:54 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:56 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 05:56 AM during insert query in b_state table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookID' in 'field list'
+
+TIME:>> 2017-03-03 06:05 AM during insert query in b_cart table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-03 06:05 AM during insert query in b_cart table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-03 06:06 AM during insert query in b_cart table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-03 06:07 AM during insert query in b_cart table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-03 06:07 AM during insert query in b_cart table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-03 06:08 AM during insert query in b_cart table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-04 06:58 AM during insert query in b_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'field list'
+
+TIME:>> 2017-03-04 07:38 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationByUser' in 'field list'
+
+TIME:>> 2017-03-04 07:38 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationByUser' in 'field list'
+
+TIME:>> 2017-03-04 07:39 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationByUser' in 'field list'
+
+TIME:>> 2017-03-04 07:42 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationByUser' in 'field list'
+
+TIME:>> 2017-03-04 07:44 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationByUser' in 'field list'
+
+TIME:>> 2017-03-04 07:45 AM during update query on  table: 
+ErrorStatement:>> SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+
+TIME:>> 2017-03-04 07:45 AM during update query on  table: 
+ErrorStatement:>> SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''
+
+TIME:>> 2017-03-04 07:47 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE CategoryID = '4'' at line 1
+
+TIME:>> 2017-03-04 07:49 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 07:49 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:18 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:19 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:20 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:20 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:29 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:29 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:31 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:32 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-04 08:32 AM during update query on b_category table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'table_name' in 'field list'
+
+TIME:>> 2017-03-07 16:22 PM during insert query in b_order_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-03-07 16:24 PM during insert query in b_order_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-03-08 10:21 AM during insert query in b_order_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ShippingAddress' cannot be null
+
+TIME:>> 2017-03-08 10:49 AM during insert query in b_order_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ShippingAddress' in 'field list'
+
+TIME:>> 2017-03-08 10:50 AM during insert query in b_order_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ShippingAddress' in 'field list'
+
+TIME:>> 2017-03-08 10:50 AM during insert query in b_order_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ShippingAddress' in 'field list'
+
+TIME:>> 2017-03-08 11:02 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-03-08 12:43 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderNo' in 'field list'
+
+TIME:>> 2017-03-08 12:46 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderNo' in 'field list'
+
+TIME:>> 2017-03-08 12:47 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderNo' in 'field list'
+
+TIME:>> 2017-03-08 12:49 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-08 12:49 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-08 14:22 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-08 14:23 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-08 14:23 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-08 14:27 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-09 10:16 AM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationDate' in 'field list'
+
+TIME:>> 2017-03-09 10:16 AM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationDate' in 'field list'
+
+TIME:>> 2017-03-09 10:18 AM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationDate' in 'field list'
+
+TIME:>> 2017-03-09 10:19 AM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationDate' in 'field list'
+
+TIME:>> 2017-03-09 10:20 AM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationDate' in 'field list'
+
+TIME:>> 2017-03-09 10:21 AM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationDate' in 'field list'
+
+TIME:>> 2017-03-09 10:22 AM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ModificationDate' in 'field list'
+
+TIME:>> 2017-03-09 14:23 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-09 14:26 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-09 14:28 PM during insert query in b_order_details table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Status' cannot be null
+
+TIME:>> 2017-03-09 14:28 PM during insert query in b_order_details table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Status' cannot be null
+
+TIME:>> 2017-03-09 14:28 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-09 14:29 PM during insert query in b_order_details table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Status' cannot be null
+
+TIME:>> 2017-03-09 14:29 PM during insert query in b_order_details table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Status' cannot be null
+
+TIME:>> 2017-03-09 14:29 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-09 14:31 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-09 18:32 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-10 08:08 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-10 08:22 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-10 08:22 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-10 10:53 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-10 18:52 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-11 08:03 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-11 08:07 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-12 06:39 AM during update query on b_bookmaster table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'StateID' in 'where clause'
+
+TIME:>> 2017-03-12 06:45 AM during update query on b_bookmaster table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderID' in 'where clause'
+
+TIME:>> 2017-03-12 06:45 AM during update query on b_bookmaster table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderID' in 'where clause'
+
+TIME:>> 2017-03-12 06:45 AM during update query on b_bookmaster table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderID' in 'where clause'
+
+TIME:>> 2017-03-12 06:46 AM during update query on b_bookmaster table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderID' in 'where clause'
+
+TIME:>> 2017-03-14 07:11 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-14 09:19 AM during insert query in b_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'BookID' cannot be null
+
+TIME:>> 2017-03-14 09:49 AM during update query on b_bookmaster table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ExpenseID' in 'where clause'
+
+TIME:>> 2017-03-14 11:55 AM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-14 18:55 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-03-21 07:18 AM during insert query in b_user table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserName' cannot be null
+
+TIME:>> 2017-03-23 05:59 AM during insert query in b_agent_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookPrice' in 'field list'
+
+TIME:>> 2017-03-23 06:00 AM during insert query in b_agent_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookPrice' in 'field list'
+
+TIME:>> 2017-03-23 06:03 AM during insert query in b_agent_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookPrice' in 'field list'
+
+TIME:>> 2017-03-23 06:04 AM during insert query in b_agent_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'BookPrice' in 'field list'
+
+TIME:>> 2017-03-23 13:25 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'EntryBY' cannot be null
+
+TIME:>> 2017-03-23 13:25 PM during insert query in b_agent_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'PayableAmount' cannot be null
+
+TIME:>> 2017-03-23 13:29 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'EntryBY' cannot be null
+
+TIME:>> 2017-03-23 13:29 PM during insert query in b_agent_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'PayableAmount' cannot be null
+
+TIME:>> 2017-03-23 13:31 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'EntryBY' cannot be null
+
+TIME:>> 2017-03-23 13:32 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'EntryBY' cannot be null
+
+TIME:>> 2017-03-23 13:35 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'EntryBY' cannot be null
+
+TIME:>> 2017-03-23 13:36 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'EntryBY' cannot be null
+
+TIME:>> 2017-03-24 12:05 PM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfilePicture' in 'field list'
+
+TIME:>> 2017-03-24 12:12 PM during update query on b_user table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProfilePicture' in 'field list'
+
+TIME:>> 2017-03-24 12:30 PM during update query on b_bookmaster table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'where clause'
+
+TIME:>> 2017-03-24 19:29 PM during insert query in b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-03-24 19:30 PM during insert query in b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-03-24 19:45 PM during insert query in b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-03-24 20:30 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-03-24 20:30 PM during insert query in b_agent_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'AgentID' cannot be null
+
+TIME:>> 2017-03-24 20:31 PM during insert query in b_retailer_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'AgentBookStockID' in 'field list'
+
+TIME:>> 2017-03-24 20:35 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-03-24 20:35 PM during insert query in b_retailer_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'AgentBookStockID' in 'field list'
+
+TIME:>> 2017-03-24 20:40 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-03-25 17:16 PM during insert query in b_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerID' in 'field list'
+
+TIME:>> 2017-03-25 17:16 PM during insert query in b_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerID' in 'field list'
+
+TIME:>> 2017-03-26 14:21 PM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ChequeNo' cannot be null
+
+TIME:>> 2017-03-26 14:21 PM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'BankName' cannot be null
+
+TIME:>> 2017-03-26 16:24 PM during update query on b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TotalBookQuantity' in 'field list'
+
+TIME:>> 2017-03-26 16:24 PM during update query on b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TotalBookQuantity' in 'field list'
+
+TIME:>> 2017-03-26 16:27 PM during update query on b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TotalBookQuantity' in 'field list'
+
+TIME:>> 2017-03-26 16:27 PM during update query on b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TotalBookQuantity' in 'field list'
+
+TIME:>> 2017-03-26 16:27 PM during update query on b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'TotalBookQuantity' in 'field list'
+
+TIME:>> 2017-03-27 00:20 AM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'BalanceType' cannot be null
+
+TIME:>> 2017-03-27 12:00 PM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'BalanceType' cannot be null
+
+TIME:>> 2017-04-23 16:26 PM during insert query in b_agent_client table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ClientAddressCity' cannot be null
+
+TIME:>> 2017-04-23 16:28 PM during insert query in b_agent_client table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ClientAddressCity' cannot be null
+
+TIME:>> 2017-04-23 16:34 PM during insert query in b_agent_client table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ClientAddressCity' cannot be null
+
+TIME:>> 2017-04-23 16:35 PM during insert query in b_agent_client table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ClientAddressCity' cannot be null
+
+TIME:>> 2017-04-23 16:36 PM during insert query in b_agent_client table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ClientAddressCity' cannot be null
+
+TIME:>> 2017-04-25 23:41 PM during update query on b_retailer_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OrderID' in 'where clause'
+
+TIME:>> 2017-04-26 23:10 PM during update query on b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'where clause'
+
+TIME:>> 2017-04-26 23:11 PM during update query on b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'where clause'
+
+TIME:>> 2017-05-06 16:52 PM during insert query in b_retailer_book_stock table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-05-06 17:05 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-05-06 17:06 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-05-06 17:07 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-05-06 17:08 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-05-06 17:09 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-05-06 18:52 PM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-05-06 18:52 PM during insert query in b_retailer_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-05-06 18:52 PM during insert query in b_retailer_invoice_balance_rele table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-05-09 09:23 AM during update query on b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserOrderStatus' in 'field list'
+
+TIME:>> 2017-05-09 10:36 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-05-09 10:36 AM during insert query in b_retailer_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-05-09 10:36 AM during insert query in b_retailer_invoice_balance_rele table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RetailerID' cannot be null
+
+TIME:>> 2017-05-11 12:23 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-11 12:24 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 10:54 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 10:59 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 10:59 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:00 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:03 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:03 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:05 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:06 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:06 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RoleID' in 'field list'
+
+TIME:>> 2017-05-12 11:06 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:08 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RoleID' in 'field list'
+
+TIME:>> 2017-05-12 11:08 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:11 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RoleID' in 'field list'
+
+TIME:>> 2017-05-12 11:11 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:25 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RoleID' in 'field list'
+
+TIME:>> 2017-05-12 11:25 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:26 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RoleID' in 'field list'
+
+TIME:>> 2017-05-12 11:26 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:29 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'CityID' cannot be null
+
+TIME:>> 2017-05-12 11:29 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:31 AM during insert query in b_user_address table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'CityID' cannot be null
+
+TIME:>> 2017-05-12 11:31 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 11:32 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-12 12:32 PM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-05-17 12:12 PM during insert query in b_agent_client table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ClientName' cannot be null
+
+TIME:>> 2017-05-17 12:15 PM during insert query in b_credit_notes table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-05-17 12:15 PM during insert query in b_credit_notes table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserID' cannot be null
+
+TIME:>> 2017-06-13 22:57 PM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-06-13 22:57 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-13 22:57 PM during insert query in b_retailer_invoice_balance_rele table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserBookStockMasterID' in 'field list'
+
+TIME:>> 2017-06-14 00:30 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-06-14 00:30 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-06-14 00:31 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-06-14 00:32 AM during insert query in b_user_book_stock table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RetailerOrderStatus' in 'field list'
+
+TIME:>> 2017-06-14 00:35 AM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-06-14 00:35 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-14 00:35 AM during insert query in b_retailer_invoice_balance_rele table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserBookStockMasterID' in 'field list'
+
+TIME:>> 2017-06-14 00:47 AM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-06-14 00:47 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-14 00:47 AM during insert query in b_retailer_invoice_balance_rele table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserBookStockMasterID' in 'field list'
+
+TIME:>> 2017-06-14 00:48 AM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-06-14 00:48 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-14 00:48 AM during insert query in b_retailer_invoice_balance_rele table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserBookStockMasterID' in 'field list'
+
+TIME:>> 2017-06-14 00:49 AM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'field list'
+
+TIME:>> 2017-06-14 00:49 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-14 00:50 AM during insert query in b_user_balance table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OpeningBalance' in 'field list'
+
+TIME:>> 2017-06-14 00:50 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-14 00:52 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-14 00:54 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-14 00:55 AM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-29 23:08 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-06-29 23:10 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:04 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:07 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:35 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:48 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:50 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:50 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:56 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-07-28 22:58 PM during insert query in b_user_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'UserBookStockID' cannot be null
+
+TIME:>> 2017-08-04 22:26 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-08-04 22:28 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-08-04 22:34 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-08-04 22:36 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-08-04 22:39 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null
+
+TIME:>> 2017-08-06 13:44 PM during update query on b_agent_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Quantity' in 'field list'
+
+TIME:>> 2017-08-06 13:45 PM during update query on b_agent_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Quantity' in 'field list'
+
+TIME:>> 2017-08-06 13:45 PM during update query on b_agent_book_stock_master table: 
+ErrorStatement:>> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Quantity' in 'field list'
+
+TIME:>> 2017-08-12 01:05 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:07 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:09 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:35 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:35 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:41 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:43 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:45 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-12 01:46 AM during insert query in b_general_user_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null
+
+TIME:>> 2017-08-16 23:52 PM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'BalanceType' cannot be null
+
+TIME:>> 2017-08-16 23:54 PM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'BalanceType' cannot be null
+
+TIME:>> 2017-08-16 23:55 PM during insert query in b_retailer_balance table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'BalanceType' cannot be null
+
+TIME:>> 2017-08-26 22:38 PM during insert query in b_stock_transaction table: 
+ErrorStatement:>> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Qauntity' cannot be null

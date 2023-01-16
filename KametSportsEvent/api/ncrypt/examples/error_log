@@ -1,0 +1,38 @@
+[25-Oct-2016 17:49:09 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:11 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:11 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:11 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:11 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:12 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:15 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:49:15 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:49:15 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:37 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:49:37 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:49:37 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:49:38 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:49:38 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:49:38 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:38 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:49:38 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:49:38 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:50:22 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 17:50:22 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 17:50:22 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:50:50 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:51:15 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:51:37 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 17:52:23 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 18:37:14 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 82
+[25-Oct-2016 18:37:14 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 87
+[25-Oct-2016 18:37:14 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126
+[25-Oct-2016 18:37:16 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, boolean given in /home/peersaledemo/public_html/api/ncrypt/lib/RNCryptor/Decryptor.php on line 126

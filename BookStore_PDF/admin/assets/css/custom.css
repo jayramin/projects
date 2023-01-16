@@ -1,0 +1,39 @@
+.wrapper {
+    min-height:auto ;
+}
+.breadcrumb{
+        padding: 8px 15px 0 0px;
+}
+.card{
+    margin : -35px 20px 0 250px  !important; 
+}
+.cardhome{
+    background-color: white;
+    padding: 15px;
+}
+
+.form-control{
+        padding: 2px 0px 0px 0px !important;
+}
+.main-header .logo{
+        font-weight: 0px; 
+        line-height: 0px; 
+}
+
+body{
+    background-color: #e1e1e1 !important;
+}
+.borderClass{
+    border: 1px solid #c6c6c6;
+    height: 50px;   
+    text-align: center;
+    padding: 10px;
+}
+@media (min-width: 768px){
+.sidebar-mini.sidebar-collapse .main-sidebar {
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    width: 43px !important;
+    z-index: 850;
+}
+}

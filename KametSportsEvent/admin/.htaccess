@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCOnd %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php?page=$1 [L]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ index.php?page=$1&method=$2&id=$3 [L]
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)$ index.php?page=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)$ index.php?page=$1&method=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ index.php?page=$1&method=$2&id=$3 [L]
+
+</IfModule>
